@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUIET Blood Donation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1 class="fun">Welcome to the SUIET Online Blood Donation System</h1>
+    </header>
+
+    <nav class="san">
+        <a  href="{{ url_for('donate') }}">Donate Blood</a>
+    </nav>
+
+    <section class="pad">
+        
+        <h2 class="heading">Blood Donors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Donor Name</th>
+                    <th>Blood Group</th>
+                    <th>Location</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for donor in donors %}
+                <tr>
+                    <td>{{ donor[1] }}</td>
+                    <td>{{ donor[2] }}</td>
+                    <td>{{ donor[3] }}</td>
+                    <td class="btn"><a href="{{ url_for('request_blood', donor_id=donor[0]) }}">Request</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Blood Donation System</p>
+    </footer>
+</body>
+</html>

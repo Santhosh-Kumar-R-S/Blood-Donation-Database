@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Blood</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1 class="heading">Request Blood</h1>
+    <form action="{{ url_for('request_blood', donor_id=donor_id) }}" method="POST">
+        <label for="patient_name">Patient Name</label>
+        <input type="text" name="patient_name" required><br>
+
+        <label for="blood_group_needed">Blood Group Needed</label>
+        <select name="blood_group_needed" id="blood_group_needed">
+            <option value="default" selected>Choose required blood group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option> 
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+
+        <label for="email">Your Email</label>
+        <input type="email" name="email" required><br>
+
+        <label for="contact_number">Your Contact Number</label>
+        <input type="contact_number" name="contact_number" required><br>
+
+
+        <input type="submit" value="Request">
+    </form>
+</body>
+</html>
