@@ -142,14 +142,32 @@ online-blood-donation/
 
    - Admin Panel: Add an admin interface to manage donors, requests, and blood inventory.
 
+
+## Contributors
+
+We would like to thank the following contributors for their valuable contributions to this project:
+
+- **[Santhosh Kumar R S](https://github.com/Santhosh-Kumar-R-S)** - Project Lead, Backend Development, Frontend Development, Database Design
+- **[Shalom Joshua L](https://github.com/Shalom-Joshua-L)** - Frontend Development, Testing and Documentation
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
    - Fork the repository.
-
    - Create a new branch for your feature or bugfix.
-
    - Commit your changes and push to the branch.
-
    - Submit a pull request.
+
+     
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Santhosh-Kumar-R-S/Blood-Donation-Database/blob/main/LICENSE) file for details.
+
+
+## Contact
+For any questions or feedback, please contact:
+
+   - Santhosh Kumar R S
+
+   - Email: snthshkumarrs@gmail.com
+
+   - GitHub: [Santhosh-Kumar-R-S](https://github.com/Santhosh-Kumar-R-S)
+
