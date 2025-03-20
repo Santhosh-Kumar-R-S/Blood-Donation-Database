@@ -117,3 +117,39 @@ online-blood-donation/
     - Fill out the request form with the patient's details and submit.
 
     - The system will send an email to the donor with the request details.
+
+## Screenshots
+   ### 1. Home Page 
+   ![Home Page](https://github.com/user-attachments/assets/3e5e7856-2807-4875-8118-31d6f9277ab5)
+
+   ### 2. Donate Blood
+   ![Donate Blood](https://github.com/user-attachments/assets/74fe2675-38a4-4c59-a4e5-4bb9c8917c43)
+
+   ### 3. Request Blood
+   ![Blood Request](https://github.com/user-attachments/assets/b637553d-47a2-4c5b-965e-6a172a72c2f5)
+
+
+   ### 4. Blood Request Mail sent over to the Donar 
+   
+   ![Blood Request Mail Sent](https://github.com/user-attachments/assets/e8febf8b-5bbb-4a68-b282-6adb2eef8be0)
+
+## Future Enhancements
+   - Real-Time Notifications: Integrate SMS or mobile app notifications for faster communication.
+
+   - Geolocation-Based Search: Allow recipients to search for donors within a specific radius.
+
+   - Machine Learning: Predict blood demand based on historical data.
+
+   - Admin Panel: Add an admin interface to manage donors, requests, and blood inventory.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+   - Fork the repository.
+
+   - Create a new branch for your feature or bugfix.
+
+   - Commit your changes and push to the branch.
+
+   - Submit a pull request.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
