@@ -68,8 +68,10 @@ The **Online Blood Donation System** is a web-based platform designed to connect
     MYSQL_PASSWORD=your_password
     MYSQL_DB=blood_donation_db
     MAIL_USERNAME=your_email@gmail.com
-    MAIL_PASSWORD=your_email_password
+    MAIL_PASSWORD=your_email_app_password
     ```
+
+    detailed note for creating the `mail_app_password` [Click Here](https://drive.google.com/file/d/1iM7bAg4cJGCOi4VQZTiAVRONf9fq7ZCL/view?usp=drivesdk)
 
 4. **Run the Application**:
      ```bash
