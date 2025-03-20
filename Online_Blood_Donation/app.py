@@ -8,15 +8,15 @@ app.secret_key = 'super_secret_key'
 # MySQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'  # Replace with your MySQL username
-app.config['MYSQL_PASSWORD'] = '9591'  # Replace with your MySQL password
+app.config['MYSQL_PASSWORD'] = 'xyz'  # Replace with your MySQL password
 app.config['MYSQL_DB'] = 'blood_donation_db'
 
 # Flask-Mail Configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'samshasadwin@gmail.com'  # Replace with your email
-app.config['MAIL_PASSWORD'] = 'xegl kert wnjv bqsl'  # Replace with your email password
+app.config['MAIL_USERNAME'] = 'example@gmail.com'  # Replace with your email
+app.config['MAIL_PASSWORD'] = 'abcd efgh ijkl mnop'  # Replace with your email password 
 
 mail = Mail(app)
 
